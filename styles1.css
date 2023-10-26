@@ -1,0 +1,54 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, red, blue);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 55px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+        }
+        .form-group {
+            margin: 20px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        a{
+                    color: white;
+	  text-decoration:none;
+                    
+          }
+        button{
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(135deg, purple,violet);
+            border: none;
+            color: #fff;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: linear-gradient(135deg, #ff5252, #2b8a88);
+        }
